@@ -20,7 +20,7 @@ const ManageGoalsModal = ({ addGoal }: Props) => {
   const [categories, setCategories] = useState<string[]>(initialCategories);
   const [newcategory, setnewCategory] = useState("");
   const [category, setCategory] = useState("");
-  const [progress, setProgress] = useState(0);
+  const [progress] = useState(0);
 
   const handleAddGoal = (event: React.FormEvent) => {
     event.preventDefault();
