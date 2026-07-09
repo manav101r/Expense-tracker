@@ -1,0 +1,72 @@
+/* BudgetUsage.module.css */
+
+.budgetUsage {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.budgetUsage h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.budgetBarContainer {
+  height: 20px;
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.budgetBarFill {
+  height: 100%;
+  background-color: #28a745;
+  width: 70%; /* Updated dynamically */
+  border-radius: 8px;
+}
+
+.category {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.categoryBudgetBarContainer {
+  height: 15px;
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.categoryBudgetBarFill {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 8px;
+}
+
+.addButton {
+  margin-top: 2rem;
+  padding: 0.7rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.addButton:active {
+  transform: scale(0.98);
+}
