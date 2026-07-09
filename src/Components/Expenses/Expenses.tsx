@@ -4,7 +4,6 @@ import { Link, Route, Routes } from "react-router-dom";
 import AddExpenseModal from "./AddExpenseModal";
 import NavBar from "../Shared/NavBar";
 import Header from "../Shared/Header";
-import ExpensesNavbar from "./ExpensesNavbar";
 import Transactions from "./TransactionsList";
 import BudgetUsage from "./BudgetUsage";
 import HistoricalAnalysis from "./HistoricalAnalysis";
