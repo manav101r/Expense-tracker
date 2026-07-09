@@ -5,7 +5,7 @@ import { useBudgetContext } from "./BudgetContext";
 import styles from "./BudgetUsage.module.css";
 
 const BudgetUsage: React.FC = () => {
-  const { categories, transactions, addCategory } = useBudgetContext();
+  const { categories, addCategory } = useBudgetContext();
   const [showModal, setShowModal] = React.useState(false);
 
   const totalBudget = categories.reduce((acc, cat) => acc + cat.budget, 0);
