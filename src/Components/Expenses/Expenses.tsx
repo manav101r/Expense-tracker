@@ -71,10 +71,6 @@ const Expenses: React.FC = () => {
         />
       )}
       <Routes>
-        <Route
-          path="transactions"
-          element={<Transactions transactions={transactions} />}
-        />
         <Route path="budget-usage" element={<BudgetUsage />} />
         <Route path="historical-analysis" element={<HistoricalAnalysis />} />
       </Routes>
