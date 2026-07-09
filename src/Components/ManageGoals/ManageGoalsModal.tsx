@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { IoAddCircleOutline } from "react-icons/io5";
-import { IoCheckmarkSharp } from "react-icons/io5";
 import { Goal } from "./ManageGoals";
 
 interface Props {
