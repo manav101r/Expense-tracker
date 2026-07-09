@@ -68,7 +68,6 @@ const Expenses: React.FC = () => {
       {showModal && (
         <AddExpenseModal
           onClose={() => setShowModal(false)}
-          onAddTransaction={addTransaction}
         />
       )}
       <Routes>
