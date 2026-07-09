@@ -1,4 +1,3 @@
-import React, { CSSProperties } from "react";
 import { TbTargetArrow } from "react-icons/tb";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { FiUser } from "react-icons/fi";
