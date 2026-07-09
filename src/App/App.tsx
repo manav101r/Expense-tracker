@@ -7,7 +7,7 @@ import Expenses from "../Components/Expenses/Expenses";
 import TransactionsList from "../Components/Expenses/TransactionsList";
 import BudgetUsage from "../Components/Expenses/BudgetUsage";
 import HistoricalAnalysis from "../Components/Expenses/HistoricalAnalysis";
-import AddExpenseModal from "../Components/Expenses/AddExpenseModal";
+
 
 function App() {
   return (
